@@ -1,0 +1,49 @@
+body{
+  background-color: black;
+  overflow-x: hidden;
+}
+
+#sideBar{
+background-color: #0D0D0D;
+display: flex;
+position: fixed;
+top: 0;
+bottom: 0;
+z-index: 999999;
+}
+
+
+.leftSide li {
+  padding-block: 10px;
+  position: relative;
+  top: 200px;
+  cursor: pointer;
+}
+
+.rightSide img{
+  width: 50px;
+  margin-top: 20px;
+}
+
+.rightSide .fa-bars, 
+.rightSide .fa-xmark {
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.img,
+.fa-4x{
+  cursor: pointer;
+}
+
+
+.word{
+  transform: translateY(100%);
+  transition:all 0.5s;
+  background-color: #f9f6f6ca;
+}
+
+.img:hover .word{
+  transform: translateY(0);
+}
+
